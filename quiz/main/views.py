@@ -7,5 +7,5 @@ def print_hello(request):
     return render (request,
                     'index.html',
                     context = {
-                        'questions': QuizQuestion.objects.all()
+                        'questions': Question.objects.all()
                     })

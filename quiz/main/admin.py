@@ -1,8 +1,6 @@
 from django.contrib import admin
 from .models import*
 
-admin.site.register(User)
-admin.site.register(Quiz)
-admin.site.register(QuizAnswer)
-admin.site.register(QuizMeta)
+admin.site.register(Question)
+admin.site.register(Choice)
 # Register your models here.
